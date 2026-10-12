@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Courier, sans-serif;
+    background-color: #27272c;
+    color: white;
+    text-align: center;
+    cursor: url("images/pawcursor.png"), auto;
+    
+}
+
+
+.peli {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #802f73;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #41d6de;
+}
+
+.coins {
+    margin: 25px 0;
+    padding: 15px;
+    background-color: #17172b;
+    border-radius: 15px;
+}
+
+.coins h2 {
+    margin: 10px;
+    font-size: 40px;
+    color: #ffd76a;
+}
+
+.ricoKolikko {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 50%;
+    background-color: #383853;
+    font-size: 75px;
+    cursor: url("images/pawcursor.png"), auto;
+    transition: transform 0.1s;
+}
+
+.ricoKolikko:hover {
+    transform: scale(1.08);
+}
+
+.ricoKolikko:active {
+    transform: scale(0.92);
+}
+
+.kauppa {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #17172b;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.paivitys {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.paivitys h3 {
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6d5ae6;
+    color: white;
+    font-weight: bold;
+    cursor: url("images/pawcursor.png"), auto;
+    
+}
+
+button:hover {
+    background-color: #45a2b0;
+}
+
+button.disabled {
+    background-color: #44445b;
+    cursor: default;
+}
+
+#viesti {
+    color: #ffd76a;
+    font-size: 14px;
+}
+
+#aloitaAlusta {
+    margin-top: 20px;
+    background-color: #44445b;
+
+}
+
+#aloitaAlusta:hover {
+    background-color: #45a2b0;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rico Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="peli">
+        <h1>Rico Clicker</h1>
+        <p>Collect poop coins by clicking the dog!</p>
+
+        <div class="coins">
+            <p>Poop Coins</p>
+            <h2 id="poop coins">0</h2>
+            <p id="klikkausMaara">+1 poop coin / click</p>
+        </div>
+
+        <button id="klikkausNappi" class="ricoKolikko">
+            🐕
+        </button>
+
+        <p>Click Rico the dog to collect poop points</p>
+
+        <div class="kauppa">
+            <h2>Upgrades</h2>
+
+            <div class="paivitys">
+                <div>
+                    <h3>Click collects poop coins twice as much</h3>
+                    <p>+2 poop coins / click </p>
+                    <p>Price: <span id="hinta">10</span> poop coins</p>
+                </div>
+
+                <button id="ostaNappi" class="disabled">Buy</button>
+            </div>
+
+            <p id="viesti"></p>
+        </div>
+
+        <button id="aloitaAlusta">Start Over</button>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
